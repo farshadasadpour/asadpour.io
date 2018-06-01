@@ -1,0 +1,97 @@
+html{
+margin:0;
+padding:0;
+}
+body {
+background-color: #C2A7F2;
+font-family: sans-serif;
+font-size: 0.9em;
+margin:0;
+padding:0;
+}
+#content{
+margin: 0 auto;
+align-content: center;
+width: 900px;
+background: #fff;
+}
+.centercontent {
+ padding : 10px 20px;
+}
+h1 {
+color: black;
+border-bottom: 2px solid #2A1959;
+font-size: 1.5em;
+border-top: 2px solid #2A1959;
+background-color: silver;
+}
+h2 {
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+color: black;
+font-size: 1.3em;
+}
+
+.topenuholder{
+display: block;
+position: relative;
+padding: 0px 0 2px 0;
+z-index: 1000;
+margin: 0 auto;
+width: 100%;
+}
+.topmenu{
+width: 100%;
+display: block;
+position: relative;
+z-index: 1000;
+padding: 1px 0 0 0;
+}
+.horiznav{
+background: rgba(0,0,0,.9);
+border-bottom: solid 10px #2066bd;
+height: 37px;
+float: none;
+}
+.horiznav ul{
+list-style: none;
+line-height: 37px;
+padding-top: 0px;
+}
+.horiznav ul li{
+float: left;
+padding: 0 10px;
+}
+.horiznav ul li a{
+color: #fff;
+text-decoration: none;
+}
+
+img#my_pic {
+float: left;
+margin-right:20px;
+}
+
+
+.footerholder{
+display: block;
+position: relative;
+padding: 0px 0 2px 0;
+z-index: 1000;
+margin: 0 auto;
+width: 100%;
+}
+.footermenu{
+width: 100%;
+display: block;
+position: relative;
+z-index: 1000;
+padding: 1px 0 0 0;
+}
+.footerhoriznav{
+padding : 2px 0 2px 20px;
+background: orange;
+border-bottom: solid 10px teal;
+height: 37px;
+float: none;
+}
